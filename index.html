@@ -36,7 +36,13 @@
     </head>
 
     <body>
+        <script type="text/javascript">
+            window.onload = function() {
+                const textarea = document.getElementById('textarea');
+                textarea.focus();
+            };
+        </script>
         <h1>Clean Textarea</h1>
-        <textarea placeholder="Start typing here..."></textarea>
+        <textarea id="textarea" placeholder="Start typing here..."></textarea>
     </body>
 </html>
